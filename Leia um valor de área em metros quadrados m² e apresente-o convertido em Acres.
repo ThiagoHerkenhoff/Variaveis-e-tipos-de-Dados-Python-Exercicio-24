@@ -1,0 +1,6 @@
+# 24 - Leia um valor de área em metros quadrados m² e apresente-o convertido em Acres. A fórmula de conversão é:
+# A = M * 0.000247, sendo M a área em metros quadrados e A a área em Acres.
+
+m = float(input('Informe o valor da área em M²: '))
+a = m * 0.000247
+print(f'O valor da àrea em M² é: {a}')
